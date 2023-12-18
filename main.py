@@ -33,8 +33,8 @@ def meniu():
             zaidimas1.pridetRema(ejimas)
             zaidimas1.vardai[0] = input("1 žaidėjo vardas:\t")
             zaidimas1.vardai[1] = input("2 žaidėjo vardas:\t")
-            zaidimas1.vardai[1][0] =zaidimas1.vardai[1][1].upper()
-            zaidimas1.vardai[1][1] =zaidimas1.vardai[1][1].upper()
+            # zaidimas1.vardai[1][0] =zaidimas1.vardai[1][0].upper()
+            # zaidimas1.vardai[1][1] =zaidimas1.vardai[1][1].upper()
             zaidziam(zaidimas1, ejimas, result=[0,0]) ## vardu nemetam, nes imetem visa objekta zaidimas1
 
         case "u":
